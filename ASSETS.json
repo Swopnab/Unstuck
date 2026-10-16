@@ -1,0 +1,27 @@
+[
+  {
+    "file": "public/images/study-1.jpg",
+    "source": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1000&q=80",
+    "bytes": 72725
+  },
+  {
+    "file": "public/images/study-2.jpg",
+    "source": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1000&q=80",
+    "bytes": 197795
+  },
+  {
+    "file": "public/images/study-3.jpg",
+    "source": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=80",
+    "bytes": 60668
+  },
+  {
+    "file": "public/images/study-4.jpg",
+    "source": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1000&q=80",
+    "bytes": 219279
+  },
+  {
+    "file": "public/images/study-5.jpg",
+    "source": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=1000&q=80",
+    "bytes": 36259
+  }
+]
