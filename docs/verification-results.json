@@ -1,0 +1,35 @@
+{
+  "fixture": "Fictional browser-local demo; Chromium viewport emulation; emulated timer clock",
+  "checks": [
+    {
+      "name": "Unstuck assignment save, reload, explanation and calendar export",
+      "result": "passed"
+    },
+    {
+      "name": "Unstuck recovery, timer reload and study history preserve associations",
+      "result": "passed"
+    },
+    {
+      "name": "Unstuck two-tab edits require explicit conflict resolution",
+      "result": "passed"
+    },
+    {
+      "name": "Unstuck backup restoration keeps a pre-restore copy",
+      "result": "passed"
+    },
+    {
+      "name": "Unstuck failed saves preserve persisted data and show an error",
+      "result": "passed"
+    },
+    {
+      "name": "Unstuck desktop, tablet and phone layouts",
+      "result": "passed"
+    },
+    {
+      "name": "Unstuck keyboard dialog navigation",
+      "result": "passed"
+    }
+  ],
+  "unhandledPageErrors": [],
+  "date": "2026-10-28"
+}

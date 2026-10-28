@@ -1,4 +1,4 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
-export default defineConfig({plugins:[react(),tailwindcss()],resolve:{alias:{'@':new URL('.',import.meta.url).pathname}}});
+export default defineConfig({base:'./',plugins:[react(),tailwindcss()],resolve:{alias:{'@':new URL('.',import.meta.url).pathname}}});

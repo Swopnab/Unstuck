@@ -6,7 +6,7 @@ export function useZenMusic(){
  const [volume,setVolumeState]=useState(()=>{try{const saved=localStorage.getItem('unstuck.music.volume');const n=saved === null ? .25 : Number(saved);return Number.isFinite(n)?Math.min(1,Math.max(0,n)):.25;}catch{return .25;}});
  const volumeRef=useRef(volume);volumeRef.current=volume;
  const play=()=>{
-  if(!audio.current){audio.current=new Audio('/audio/small-steps-zen.wav');audio.current.loop=true;audio.current.preload='none';audio.current.addEventListener('pause',()=>setPlaying(false));audio.current.addEventListener('error',()=>{setPlaying(false);setStatus('Music could not load. Try again.');});}
+  if(!audio.current){audio.current=new Audio('./audio/small-steps-zen.wav');audio.current.loop=true;audio.current.preload='none';audio.current.addEventListener('pause',()=>setPlaying(false));audio.current.addEventListener('error',()=>{setPlaying(false);setStatus('Music could not load. Try again.');});}
   audio.current.volume=volumeRef.current;
   void audio.current.play().then(()=>{setPlaying(true);setStatus('Zen music is playing.');}).catch(()=>{setPlaying(false);setStatus('Click Play zen music to allow audio.');});
  };
