@@ -83,4 +83,8 @@ No automatic calendar scheduling, notifications, AI generation, collaboration, c
 
 ## Review update
 
-See [setup, storage/recovery architecture, demo, calendar export and limitations](docs/RELEASE_REVIEW.md), [prepared usability plan](docs/USABILITY_PLAN.md), and [UI provenance](docs/UI_REUSE.md). The account-free fictional demo is `?demo=1#workspace` and uses separate browser storage. The current changes are local review work and have not been deployed.
+See [setup, storage/recovery architecture, demo, calendar export and limitations](docs/RELEASE_REVIEW.md), [prepared usability plan](docs/USABILITY_PLAN.md), and [UI provenance](docs/UI_REUSE.md). The account-free fictional demo is `?demo=1#workspace` and uses separate browser storage.
+
+## Published interface — October 28, 2026
+
+[Open the website](https://swopnab.github.io/Unstuck/?demo=1#workspace). The public fictional demo uses its own browser storage; no account is required. See GitHub Actions for release checks and deployment status.

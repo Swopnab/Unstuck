@@ -1,3 +1,9 @@
+# Publication note
+
+Approved changes are merged into `main`, and the static interface is published on GitHub Pages: https://swopnab.github.io/Unstuck/?demo=1#workspace. The public fictional demo uses its own browser storage; no account is required.
+
+The review below records pre-publication validation and its remaining limits.
+
 # Unstuck — readable planner and safe local storage
 
 Status: local review. The public build is prepared but not deployed before final approval. No real student participants or private records were used.
