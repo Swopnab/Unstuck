@@ -80,3 +80,7 @@ The image band offers a pause/play control and respects reduced motion. The scro
 ## Limits
 
 No automatic calendar scheduling, notifications, AI generation, collaboration, cloud sync, external course data, or actual Devpost submission is implemented. Local storage is scoped to an origin: data created on localhost does not appear automatically on the hosted URL. The capacity estimate is not a promise that an assignment is achievable.
+
+## Review update
+
+See [setup, storage/recovery architecture, demo, calendar export and limitations](docs/RELEASE_REVIEW.md), [prepared usability plan](docs/USABILITY_PLAN.md), and [UI provenance](docs/UI_REUSE.md). The account-free fictional demo is `?demo=1#workspace` and uses separate browser storage. The current changes are local review work and have not been deployed.

@@ -22,11 +22,11 @@ const EXAMPLE_STEPS = [
 ];
 
 export default function Welcome({ onEnter }: { onEnter: () => void }) {
-  const [paused, setPaused] = useState(false);
+  const [paused, setPaused] = useState(true);
   return <div className="welcome">
     <nav className="landing-nav" aria-label="Welcome">
       <Logo/>
-      <div><LaunchBalloons/><a href="#how-it-works">How it works</a><button className="button dark" onClick={onEnter}>Open my workspace <ArrowUpRight size={17}/></button></div>
+      <div><a href="?demo=1#workspace">Try fictional demo</a><LaunchBalloons/><a href="#how-it-works">How it works</a><button className="button dark" onClick={onEnter}>Open my workspace <ArrowUpRight size={17}/></button></div>
     </nav>
     <main id="main">
       <TiltedGridHero images={STUDY_IMAGES} className={`landing-hero ${paused ? 'motion-paused' : ''}`} tileHeight={29} axis={60} curve={65} speed={5} fade={15}>
@@ -56,7 +56,7 @@ export default function Welcome({ onEnter }: { onEnter: () => void }) {
 
       <section className="scroll-showcase" aria-label="Workspace preview">
         <ContainerScroll titleComponent={<><span className="eyebrow">FROM A DEADLINE TO A DOABLE ACTION</span><h2 className="scroll-title">A workspace that asks<br/><em>what fits today.</em></h2><p className="scroll-caption">Add your work. Choose your time and energy. Find a place to start.</p></>}>
-          <div className="preview-frame"><img src="/images/workspace-preview.jpg" alt="Example Unstuck workspace suggesting a ten-minute outline step, with time and energy controls and clearly labeled example assignments" loading="lazy"/></div>
+          <div className="preview-frame"><img src="./images/workspace-preview.png" alt="Example Unstuck workspace suggesting a ten-minute outline step, with time and energy controls and clearly labeled example assignments" loading="lazy"/></div>
         </ContainerScroll>
       </section>
 

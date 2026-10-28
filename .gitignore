@@ -1,6 +1,8 @@
-node_modules/
+node_modules
 dist/
 .sites-runtime/
 .env*
 !.env.example
 *.log
+
+/tests/screenshots/
